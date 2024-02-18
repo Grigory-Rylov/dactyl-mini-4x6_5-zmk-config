@@ -1,6 +1,6 @@
-// dactyl_cc_left.overlay
+// ergonaut_one_left.overlay
 
-#include "dactyl_cc.dtsi" // Notice that the main dtsi files are included in the overlay.
+#include "ergonaut_one.dtsi" // Notice that the main dtsi files are included in the overlay.
 
 &kscan0 {
     col-gpios
