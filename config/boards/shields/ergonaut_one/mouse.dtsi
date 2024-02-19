@@ -24,6 +24,7 @@
 #define MOVE_LEFT MOVE_X(-U_MOUSE_MOVE_MAX)
 #define MOVE_RIGHT MOVE_X(U_MOUSE_MOVE_MAX)
 
+/*
 #undef SCROLL_UP
 #undef SCROLL_DOWN
 #undef SCROLL_LEFT
@@ -44,3 +45,4 @@
 #define U_WH_D &msc SCROLL_DOWN
 #define U_WH_L &msc SCROLL_LEFT
 #define U_WH_R &msc SCROLL_RIGHT
+*/
