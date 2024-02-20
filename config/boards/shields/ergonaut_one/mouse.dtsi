@@ -2,18 +2,11 @@
 
 &mmv {
   acceleration-exponent = <1>;      // 1
-  time-to-max-speed-ms = <500>;    // 40
+  time-to-max-speed-ms = <1500>;    // 40
   delay-ms = <0>;                   // 0
 };
 
-/*
-&msc {
-  acceleration-exponent = <1>;      // 0
-  time-to-max-speed-ms = <5000>;    // 40
-  delay-ms = <0>;                   // 10
-};
-
-#define U_MOUSE_MOVE_MAX 1250       // 600
+#define U_MOUSE_MOVE_MAX 1500       // 600
 #define U_MOUSE_SCROLL_MAX 100      // 10
 
 #undef MOVE_UP
@@ -25,6 +18,12 @@
 #define MOVE_LEFT MOVE_X(-U_MOUSE_MOVE_MAX)
 #define MOVE_RIGHT MOVE_X(U_MOUSE_MOVE_MAX)
 
+/*
+&msc {
+  acceleration-exponent = <1>;      // 0
+  time-to-max-speed-ms = <5000>;    // 40
+  delay-ms = <0>;                   // 10
+};
 
 #undef SCROLL_UP
 #undef SCROLL_DOWN
