@@ -7,7 +7,7 @@
 };
 
 #define U_MOUSE_MOVE_MAX 2500       // 600
-#define U_MOUSE_SCROLL_MAX 100      // 10
+#define U_MOUSE_SCROLL_MAX 200      // 10
 
 #undef MOVE_UP
 #undef MOVE_DOWN
@@ -24,6 +24,7 @@
   time-to-max-speed-ms = <5000>;    // 40
   delay-ms = <0>;                   // 10
 };
+*/
 
 #undef SCROLL_UP
 #undef SCROLL_DOWN
@@ -45,4 +46,3 @@
 #define U_WH_D &msc SCROLL_DOWN
 #define U_WH_L &msc SCROLL_LEFT
 #define U_WH_R &msc SCROLL_RIGHT
-*/
